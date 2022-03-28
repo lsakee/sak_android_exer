@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "208097310926",
+    "project_id": "fir-email-password-4fbcd",
+    "storage_bucket": "fir-email-password-4fbcd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:208097310926:android:7617addc1886689ac3f89f",
+        "android_client_info": {
+          "package_name": "com.cookandroid.fb_firebase_email_test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "208097310926-6bgit0n4kiacsnq9g8qkibhmbmkau9d1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPB2CDEOrnzcFjOLbctfz87DdekKsO6XU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "208097310926-6bgit0n4kiacsnq9g8qkibhmbmkau9d1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
