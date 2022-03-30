@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "862098088936",
+    "project_id": "mango-project-6437c",
+    "storage_bucket": "mango-project-6437c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:862098088936:android:2686c92899609d560bba5d",
+        "android_client_info": {
+          "package_name": "com.cookandroid.mango_contents"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "862098088936-r8g4gog8aps8vplc50f83qh5u676g5u9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3jr-xnVVup0uhZ7Pg3X1Pw2GgJoHJ9Q4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "862098088936-r8g4gog8aps8vplc50f83qh5u676g5u9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
