@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="학점 계산기"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:background="@color/red"/>
+    <Switch
+        android:id="@+id/vsibleSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="시작하기"
+        android:textSize="20dp"
+        android:checked="true"
+        android:layout_margin="10dp" />
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tableLayout_1"
+        >
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="이름"
+
+                android:textSize="30dp" />
+            <EditText
+                android:layout_weight="1"
+                android:hint="이름을 입력하세요"
+                android:id="@+id/name" />
+        </TableRow>
+
+        <RadioGroup
+            android:id="@+id/radioG"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="학년"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+            <RadioButton
+                android:id="@+id/btnG1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1학년"
+                android:textSize="20dp"/>
+
+            <RadioButton
+                android:id="@+id/btnG2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2학년"
+                android:textSize="20dp"/>
+
+            <RadioButton
+                android:id="@+id/btnG3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3학년"
+                android:textSize="20dp"/>
+
+            <RadioButton
+                android:id="@+id/btnG4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4학년"
+                android:textSize="20dp"/>
+        </RadioGroup>
+        <TextView
+            android:text="모든 항목을 100점 만점으로 입력"
+            android:textColor="@color/red"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp"/>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="중간고사"
+                android:textSize="30dp"
+                />
+            <EditText
+                android:layout_weight="1"
+                android:id="@+id/first" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="기말고사"
+                android:textSize="30dp"
+                />
+            <EditText
+                android:layout_weight="1"
+                android:id="@+id/final1" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="과제"
+                android:textSize="30dp"
+                />
+            <EditText
+                android:layout_weight="1"
+                android:id="@+id/homeWork" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="출석점수"
+                android:textSize="30dp"
+                />
+            <EditText
+                android:layout_weight="1"
+                android:id="@+id/attend" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent">
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_weight="1"
+                android:text="학점계산"
+                android:textSize="30dp"
+                android:id="@+id/btn1"
+                android:layout_margin="10dp"
+                android:background="#808080"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:background="#808080"
+                android:layout_weight="1"
+                android:text="초기화"
+                android:textSize="30dp"
+                android:id="@+id/btn2"
+                android:layout_margin="10dp"/>
+        </TableRow>
+
+    </TableLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:id="@+id/exit1"/>
+
+</LinearLayout>
